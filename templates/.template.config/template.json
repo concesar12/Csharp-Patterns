@@ -1,0 +1,12 @@
+{
+    "author": "Your Name",
+    "classifications": [ "Common", "Console" ],
+    "identity": "YourTemplate.Console",
+    "name": "Your Template",
+    "shortName": "yourtemplate",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    }
+  }
+  
