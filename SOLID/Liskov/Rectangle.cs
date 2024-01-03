@@ -45,9 +45,7 @@ namespace Liskov
         }
     }
 
-
-
-    public class Rectangle
+    public class Program
     {
         //We made this static to avoid creating a new instance for it
         static public int Area(Rectangle r) => r.width * r.height ;

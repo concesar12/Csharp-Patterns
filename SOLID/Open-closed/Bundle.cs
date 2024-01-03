@@ -36,7 +36,7 @@ public class Bundle
 public class BundleFilter
 {
     /*
-    The purpose of this method is to filter the  Bunsles  collection based on the  consoles  value. It iterates over each  Bundle  object in the  Bunsles  collection and checks
+    The purpose of this method is to filter the  Bundles  collection based on the  consoles  value. It iterates over each  Bundle  object in the  Bundles  collection and checks
      if the  _consoles  property of the  Bundle  object matches the specified  consoles  value. 
      If there is a match, it yields (returns) the  Bundle  object. 
  
@@ -58,7 +58,7 @@ public class BundleFilter
     }
 }
 
-//Create an interface that will take a specification of a typt T that will be filtered
+//Create an interface that will take a specification of a type T that will be filtered
 public interface ISpecification<T>
 {
     bool IsSatisfied(T t);    
@@ -79,7 +79,7 @@ public class ConsoleSpecification : ISpecification<Bundle>
     {
         this._consoles = consoles;
     }
-    //Still need more undersdtanding
+    //Still need more understanding
     public bool IsSatisfied(Bundle t)
     {
         return t._consoles == _consoles;

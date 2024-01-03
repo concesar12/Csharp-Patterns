@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/SingleResposibility/bin/Debug/net8.0/Single_responsibility.dll",
+            "program": "${workspaceFolder}/solution-examples/Liskov-sol/bin/Debug/net8.0/Liskov-sol.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/SingleResposibility",
+            "cwd": "${workspaceFolder}/solution-examples/Liskov-sol",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
