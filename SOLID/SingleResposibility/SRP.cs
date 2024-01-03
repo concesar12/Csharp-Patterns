@@ -6,6 +6,16 @@ using System.Diagnostics;
 using System.IO;
 using static System.Console;
 
+/// <summary>
+/// This code is to demonstrate how the Single principle works : 
+/// We have three classes 
+/// 1. Journal
+/// 2. Persistence
+/// 3. Demo(Main)
+/// The aim of this is to Have a Journal in a list in which we will put information and then we save it in a file with persistance
+/// So what we do in this case is to separate the class Journal from the Persistence in that way we can actually use the Journal only for their functions and the Persistence for its functions too
+/// </summary>
+/// 
 public class Journal
 {
     //First thing is to create a list of strings called entries
@@ -56,6 +66,17 @@ public class Persistence
         if (overwrite || !File.Exists(filename))
             File.WriteAllText(filename, j.ToString());
     }
+/// <summary>
+/// TO-DO This method reads the file and print it in memory Journal 
+/// </summary>
+/// <param name="filename"></param>
+/// <returns></returns>
+/// <exception cref="NotImplementedException"></exception>
+    public Journal LoadFile(string filename)
+    {
+        throw new NotImplementedException();
+    }
+
 }
 
 public class Demo
@@ -65,17 +86,21 @@ public class Demo
         // Initialize log4net
         BasicConfigurator.Configure();
 
-        //Then I have instiante the class Journal and add a new entry
+        //Then I have instance the class Journal and add a new entry
         var jour = new Journal();
         jour.AddEntry("Primer programa");
         jour.AddEntry("Segundo programa");
+        jour.AddEntry("Tercer programa");
+        jour.RemoveEntry(2);
+        jour.AddEntry("Cuarto programa");
+
         //Write in the console, this method invokes toString implicitly
         WriteLine(jour);
 
         //Call persistance class
         var per = new Persistence();
         //specify the path
-        var filename = @"D:\Design_Patterns_Csharp\Problems\Template.txt";
+        var filename = "Template.txt";
         //Save the file
         per.SaveToFile(jour, filename, true);
         //Call the process to do it, UseShellExecute to tell the operating system the default program to use

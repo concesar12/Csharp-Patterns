@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open-closed", "Open-closed\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Single_responsibility", "SingleResposibility\Single_responsibility.csproj", "{7270AB99-2B07-4749-A537-9F08BF492CF1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-examples", "solution-examples", "{C795C80D-1398-4122-AAF2-B67150D36427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP", "solution-examples\SRP\SRP.csproj", "{3BD45C7E-C0E5-4EE7-82D1-DFC69E88CDF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,12 @@ Global
 		{7270AB99-2B07-4749-A537-9F08BF492CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7270AB99-2B07-4749-A537-9F08BF492CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7270AB99-2B07-4749-A537-9F08BF492CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BD45C7E-C0E5-4EE7-82D1-DFC69E88CDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD45C7E-C0E5-4EE7-82D1-DFC69E88CDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD45C7E-C0E5-4EE7-82D1-DFC69E88CDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD45C7E-C0E5-4EE7-82D1-DFC69E88CDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3BD45C7E-C0E5-4EE7-82D1-DFC69E88CDF7} = {C795C80D-1398-4122-AAF2-B67150D36427}
 	EndGlobalSection
 EndGlobal
