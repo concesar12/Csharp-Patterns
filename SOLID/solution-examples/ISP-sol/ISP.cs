@@ -126,4 +126,12 @@
             scanner.Scan(d);
         } //Decorator pattern
     }
+
+    public class Program
+        {
+            static void Main(string[] args)
+            {
+                Console.WriteLine("Hello, World!");
+            }
+        }
 }

@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/solution-examples/Liskov-sol/bin/Debug/net8.0/Liskov-sol.dll",
+            "program": "${workspaceFolder}/solution-examples/DIV-sol/bin/Debug/net8.0/DIV-sol.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/solution-examples/Liskov-sol",
+            "cwd": "${workspaceFolder}/solution-examples/DIV-sol",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
