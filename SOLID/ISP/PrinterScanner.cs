@@ -69,7 +69,7 @@ namespace ISP
         }
     }
 
-    //Se3parate concerns to avoid using extra stuff
+    //Separate concerns to avoid using extra stuff
     public interface IPrinter
     {
         void Print(Document d);
