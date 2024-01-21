@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "observer-event", "observer-event\observer-event.csproj", "{6D090495-CA4F-4FB2-BBAC-1DC35C4FF343}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weak-event", "weak-event\weak-event.csproj", "{EA76D0EC-0AD2-4E73-8364-A002F15745F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{6D090495-CA4F-4FB2-BBAC-1DC35C4FF343}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D090495-CA4F-4FB2-BBAC-1DC35C4FF343}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D090495-CA4F-4FB2-BBAC-1DC35C4FF343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA76D0EC-0AD2-4E73-8364-A002F15745F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA76D0EC-0AD2-4E73-8364-A002F15745F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA76D0EC-0AD2-4E73-8364-A002F15745F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA76D0EC-0AD2-4E73-8364-A002F15745F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
